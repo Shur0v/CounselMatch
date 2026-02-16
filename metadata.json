@@ -1,0 +1,8 @@
+{
+  "name": "CounselMatch Premium Redesign",
+  "description": "A high-conversion, modern UX-focused marketplace platform connecting students with elite counselors, featuring premium SaaS aesthetics and a seamless user journey.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
