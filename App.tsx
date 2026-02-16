@@ -1,5 +1,5 @@
 
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { SearchArea } from './components/SearchArea';
@@ -39,36 +39,36 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen gradient-mesh">
       <Navbar />
-      
+
       <main>
         <div className="reveal-on-scroll">
           <Hero />
         </div>
-        
+
         <div className="reveal-on-scroll">
           <SearchArea />
         </div>
-        
+
         <div className="reveal-on-scroll">
           <HowItWorks />
         </div>
-        
+
         <div className="reveal-on-scroll">
           <PostBrief />
         </div>
-        
+
         <div className="reveal-on-scroll">
           <Mission />
         </div>
-        
+
         <div className="reveal-on-scroll">
           <TrustSection />
         </div>
-        
+
         <div className="reveal-on-scroll">
           <QualitySystem />
         </div>
-        
+
         <div className="reveal-on-scroll">
           <CTASection />
         </div>
